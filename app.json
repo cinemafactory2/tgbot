@@ -1,5 +1,5 @@
 {
-  "name": "boss",
+  "name": "boss™️",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
   "keywords": [
     "telegram",
@@ -8,23 +8,23 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/Cinemafactory20/tgbot",
+  "repository": "https://github.com/cinemafactory20/tgbot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables. But, you need to understand the code to know what to set here!",
       "value": "ANYTHING"
     },
     "TOKEN": {
-      "description": "Your bot token, as a string.",
-      "value": ""
+      "description": "Your bot token, as a string.get this from @botfather",
+      "value": "1182010778:AAFqXXg3CxLSKrQl9VgaLG9OuV0v-dPT1DQ"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
       "value": "1058885931"
     },
     "OWNER_USERNAME": {
-      "description": "Your username",
-      "value": "Darkangewl"
+      "description": "Your username without '@' ",
+      "value": "darkangewl"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -32,7 +32,7 @@
     },
     "URL": {
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
-      "value": ""
+      "value": "https://<appname>.herokuapp.com"
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
@@ -41,7 +41,7 @@
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "254318997 18673980 83489514"
+      "value": "1058885931 1012124014 1070038621"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
