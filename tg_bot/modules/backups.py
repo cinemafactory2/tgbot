@@ -72,10 +72,10 @@ __help__ = """
 *Admin only:*
  - /import: reply to a group butler backup file to import as much as possible, making the transfer super simple! Note \
 that files/photos can't be imported due to telegram restrictions.
- - /export: !!! This isn't a command yet, but should be coming soon!
+ - /export: you can export your chat *beta program*
 """
 IMPORT_HANDLER = CommandHandler("import", import_data)
 EXPORT_HANDLER = CommandHandler("export", export_data)
 
 dispatcher.add_handler(IMPORT_HANDLER)
-# dispatcher.add_handler(EXPORT_HANDLER)
+dispatcher.add_handler(EXPORT_HANDLER)
